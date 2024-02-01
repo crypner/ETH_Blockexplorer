@@ -1,0 +1,101 @@
+* {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+b, strong {
+  font-weight: 500;
+}
+
+nav.navbar{
+  margin-bottom: 50px;
+  padding: 0;
+  background: #FF0;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color:#aaa;
+  padding: 12px 15px;
+}
+.nav-link.active{
+  font-weight: 700;
+  border-bottom: 2px solid;
+}
+
+.BlocksTitle{
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.block{
+  cursor: pointer;
+  width: fit-content;
+  margin-bottom: 3px;
+  padding: 3px 10px;
+  border-radius: 8px;
+}
+.block svg path{
+  fill:#aaa;
+}
+.block:hover{
+  background:#eee;
+}
+.block:hover svg path{
+  fill:#888;
+}
+
+.block.BlockActive{
+  font-weight:700;
+  background: #dfdfdf;
+}
+
+.TxsList{
+  overflow: auto;
+  max-height: 70vh;
+  min-height: 50px;
+}
+
+
+.TxsList p{
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  padding: 3px 10px;
+  border-radius: 8px;
+}
+
+.TxsList p svg path{
+  fill:#aaa;
+}
+.TxsList p:hover{
+  background:#eee;
+}
+.TxsList p:hover svg path{
+  fill:#888;
+}
+
+.fa-ethereum path{
+  fill: #90918f;
+}
+
+input.form-control{
+  box-shadow: none!important;
+}
+
+.modal-body div p {
+  margin: 0;
+}
+.modal-body{
+  padding: 15px 30px 30px;
+}
+
+.NFTImage{
+  max-width: 30%;
+  margin: 5px;
+  border-radius: 8px;
+}
