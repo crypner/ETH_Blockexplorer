@@ -1,10 +1,10 @@
 # Ethereum Block Explorer
 
-This Ethereum Block explorer utilises the Alchemy SDK for interacting with the Ethereum Blockchain.
+This Ethereum Block explorer utilizes the Alchemy SDK for interacting with the Ethereum Blockchain.
 
 Main Functions:
 - Gets The last 20 mined blocks on the Ethereum Blockchain and pulls the latest 50 transactions from each block.
-- Gets Accound Balance in ETH and USD equivalent
+- Gets Account Balance in ETH and USD equivalent
 - Gets List of NFTs owned by account address
 
 
